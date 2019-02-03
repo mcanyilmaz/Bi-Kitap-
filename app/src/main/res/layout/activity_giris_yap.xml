@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GirisYap">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yeniss"
+        android:id="@+id/girisResim"
+        />
+
+    <EditText
+        android:layout_below="@+id/girisResim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adı Giriniz"
+        android:gravity="center"
+        android:id="@+id/girisEmail"
+        />
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/girisEmail"
+        android:hint="Şifre Giriniz"
+        android:id="@+id/girisSifre"
+        android:gravity="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giriş Yap"
+        android:layout_below="@+id/girisSifre"
+        android:id="@+id/girisButon"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kayıt OL"
+        android:layout_below="@+id/girisButon"
+        android:id="@+id/kayitOlYonlen"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kayıt Olmadan Devam Et "
+        android:layout_below="@+id/kayitOlYonlen"
+        android:id="@+id/kayitOlmadanDevam"
+        />
+
+
+</RelativeLayout>

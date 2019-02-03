@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcilisEkrani"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yeniss"
+        android:id="@+id/splashScreenIMG"
+        />
+
+    <ProgressBar
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:layout_below="@+id/splashScreenIMG"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:gravity="center"
+        android:text="CopyRight © 2019 Mustafa Can Yılmaz Tüm Hakları Saklıdır."
+
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+</RelativeLayout>

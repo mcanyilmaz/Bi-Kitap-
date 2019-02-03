@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KayitOl">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yeniss"
+        android:id="@+id/kayitResmi"
+        />
+
+    <EditText
+        android:layout_below="@+id/kayitResmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Kullanıcı Adı Giriniz"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sifre"
+        android:hint="Şifre Giriniz"
+        android:gravity="center"
+        android:layout_below="@+id/email"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sifreOnay"
+        android:hint="Sifre tekrar Giriniz"
+        android:gravity="center"
+        android:layout_below="@id/sifre"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kayıt OL"
+        android:layout_below="@id/sifreOnay"
+        android:id="@+id/kayitOl"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/direkGiris"
+        android:layout_below="@id/kayitOl"
+        android:hint="Giriş Yap"
+        />
+
+
+
+
+</RelativeLayout>

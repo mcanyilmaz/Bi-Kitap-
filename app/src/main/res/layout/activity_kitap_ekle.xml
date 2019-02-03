@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KitapEkle">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eklenecekKitapAdi"
+        android:hint="Kitap Adını Giriniz"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:gravity="center"
+        android:hint="Kitap Detayını Giriniz"
+        android:layout_below="@+id/eklenecekKitapAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eklenecekKitapDetay" />
+
+
+     <EditText
+         android:gravity="center"
+         android:hint="Kitap Yazarını Giriniz"
+         android:layout_below="@id/eklenecekKitapDetay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eklenecekKitapYazar" />
+
+
+    <Button
+        android:layout_below="@id/eklenecekKitapYazar"
+        android:id="@+id/Eklebutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kitabı Sisteme Ekle" />
+
+    <Button
+        android:layout_below="@id/Eklebutton1"
+        android:id="@+id/mevcutKitaplariGor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mevcut Kitapları Gör" />
+
+
+</RelativeLayout>
